@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Hero area Section styles */
+.hero-area {
+
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    height: 700px;
+    left: 25px;
+    align-items: center;
+    justify-content: end;
+    text-align: end;
+    padding-right: 100px;
+    display: flex;
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.contact-btn{
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    background-color: #F15B22;
+    border-radius: 5px;
+    padding: 15px 15px;
+}
