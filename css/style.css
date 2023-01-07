@@ -31,7 +31,8 @@
     line-height: 26px;
     margin-bottom: 20px;
 }
-.contact-btn{
+
+.contact-btn {
     color: #fff;
     font-size: 20px;
     border: 0;
@@ -39,12 +40,14 @@
     border-radius: 5px;
     padding: 15px 15px;
 }
+
 /* failures style */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-.Failures-Section{
+
+.Failures-Section {
     display: flex;
     background-color: #FFFFFF;
     align-items: center;
@@ -54,44 +57,48 @@ main {
     margin-bottom: 130px;
 }
 
-.Failures-Title{
+.Failures-Title {
     font-size: 40px;
     color: #151414;
     font-weight: 700;
     margin-bottom: 24px;
 }
-.Failures-Sub-Title{
+
+.Failures-Sub-Title {
     font-size: 16px;
     color: #444343;
     margin-bottom: 8px;
     line-height: 26px;
 }
+
 .Failures-Sub-Title i {
     color: #16D887;
 
 }
 
 /* Plans styles  */
-.head-title{
+.head-title {
     font-size: 40px;
     color: #151414;
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
 }
-.plan-list{
+
+.plan-list {
     display: flex;
     justify-content: space-around;
     margin-bottom: 130px;
 }
-.plan{
+
+.plan {
     text-align: center;
     font-weight: normal;
 }
 
 /* call now section style  */
 .call-now {
-    
+
     margin-top: 70px;
     height: 300px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('/images/watch.png');
@@ -102,12 +109,13 @@ main {
     margin-bottom: 130px;
     background-repeat: no-repeat;
 }
-.call-content h1{
+
+.call-content h1 {
     color: #fff;
     margin-bottom: 20px;
 }
 
-.btn-phone{
+.btn-phone {
     color: #F15B22;
     font-size: 20px;
     font-weight: 600;
@@ -115,4 +123,69 @@ main {
     background: #fff;
     border-radius: 5px;
     padding: 20px 25px;
+}
+
+/* footer section styles  */
+footer {
+    background: #000;
+
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.future-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin: 16px 0px 24px;
+    padding-right: 500px;
+}
+
+.social-icon img {
+    margin-right: 18px;
+}
+
+.Subscribe {
+    padding-bottom: 140px;
+}
+
+label {
+    font-weight: 600px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+
+}
+
+input {
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+    background: #000;
+    margin: 30px 0 16px;
+}
+
+.Developer {
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 50%;
+    display: inline-block;
 }
