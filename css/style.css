@@ -88,3 +88,31 @@ main {
     text-align: center;
     font-weight: normal;
 }
+
+/* call now section style  */
+.call-now {
+    
+    margin-top: 70px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('/images/watch.png');
+    border-radius: 8px;
+    padding: 0 65px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+    background-repeat: no-repeat;
+}
+.call-content h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-phone{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
