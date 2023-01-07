@@ -70,3 +70,21 @@ main {
     color: #16D887;
 
 }
+
+/* Plans styles  */
+.head-title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+.plan{
+    text-align: center;
+    font-weight: normal;
+}
