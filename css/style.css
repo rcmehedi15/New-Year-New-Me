@@ -39,3 +39,34 @@
     border-radius: 5px;
     padding: 15px 15px;
 }
+/* failures style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Failures-Section{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+    padding-right: 65px;
+    margin-bottom: 130px;
+}
+
+.Failures-Title{
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.Failures-Sub-Title{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    line-height: 26px;
+}
+.Failures-Sub-Title i {
+    color: #16D887;
+
+}
